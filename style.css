@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #333;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #76c7c0;
+}
+
+main section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.summary p {
+  margin: 0.5rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+input, select, button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+input, select {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+button {
+  background-color: #76c7c0;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5db2aa;
+}
+
+ul#lista-transacciones {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#lista-transacciones li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+canvas {
+  margin-top: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
